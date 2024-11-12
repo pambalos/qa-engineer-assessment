@@ -10,6 +10,7 @@ module.exports = {
       'ts-jest': {
         tsconfig: 'tsconfig.json'
       }
-    }
+    },
+    setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"]
   };
   
